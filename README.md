@@ -22,26 +22,6 @@ We will be using one repository for this playground:
 
 You will also have a Jenkins server that the playground team have spun up for you this evening...
 
-## Terminal and VS Code
-
-If you are using our provided workstations tonight, visit [this site](https://digital-meetup-signed-users.s3-eu-west-1.amazonaws.com/index.html) and type your **Meetup username** into the form. Then press submit and you should see
-1. **Username**
-2. **Password**
-3. **Terminal**: this is terminal we have spun up for you to run commands
-4. **IDE**: a workstation with VS Code installed to edit files
-5. **Jenkins**: the Jenkins instance you'll be using tonight
-
-![](readme_images/instance_details.png)
-
-> IMPORTANT: You'll need a unique animal identifier for tonight. You can find this prefixed on your **Terminal** and **IDE** urls. For example in the example above, my animal name would be **bengal**
-
-Keep this animal safe somewhere on your machine.
-
-Once you have logged into your *remote* terminal (the one we have provided), you will need to change into the `WorkDir` directory by running:
-```
-cd WorkDir
-```
-Anything in this directory will show up on your VS Code workstation.
 
 # Section 1 - the first script: build the Pipeline as Code script.
 
