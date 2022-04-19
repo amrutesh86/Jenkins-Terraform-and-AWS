@@ -18,7 +18,7 @@ Still with me? Ok, lets get to it...
 If you don't already have a GitHub account then please sign up [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 
 We will be using one repository for this playground:
-1. The [react-app-devops-playground](https://github.com/DevOpsPlayground/Hands-on-with-Jenkins-Terraform-and-AWS) repository. This is the repository you're currently in, and it contains all the application code and scripts that we will need to actually deploy the web app to AWS.
+1. The [react-app-devops-playground](https://github.com/venkat09docs/Jenkins-Terraform-and-AWS) repository. This is the repository you're currently in, and it contains all the application code and scripts that we will need to actually deploy the web app to AWS.
 
 You will also have a Jenkins server that the playground team have spun up for you this evening...
 
@@ -28,14 +28,10 @@ You will also have a Jenkins server that the playground team have spun up for yo
 First and foremost, you all need your own forked repository so you all have your own individual repos you can commit to.
 
 ### 1. Fork the repository
-Go to the [react-app-devops-playground](https://github.com/DevOpsPlayground/Hands-on-with-Jenkins-Terraform-and-AWS) and click `fork`
+Go to the [react-app-devops-playground](https://github.com/venkat09docs/Jenkins-Terraform-and-AWS) and click `fork`
 
-![](readme_images/fork.png)
 
-You can copy the url of the repository from the GitHub user interface like so:
-![](readme_images/copy_url.png)
-
-Clone down your **forked** [react-app-devops-playground](https://github.com/DevOpsPlayground/Hands-on-with-Jenkins-Terraform-and-AWS)
+Clone down your **forked** [react-app-devops-playground](https://github.com/venkat09docs/Jenkins-Terraform-and-AWS)
 repository
 > note: remember to cd into `WorkDir` first if you are using the terminal we provided for you
 
