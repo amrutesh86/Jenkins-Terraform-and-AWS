@@ -4,7 +4,8 @@ pipelineJob("Deploy-React-App"){
         daysToKeep(5)
         numToKeep(20)
     }
-    concurrentBuild(allowConcurrentBuild=false)
+    //concurrentBuild(allowConcurrentBuild=false)
+    disableConcurrentBuilds()
     triggers {
         scm("* * * * *"){
             ignorePostCommitHooks(ignorePostCommitHooks = false)
