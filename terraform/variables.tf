@@ -1,5 +1,5 @@
 variable "security_group_id" {
-  default = "sg-0cfa06fed7a4649c7"
+  default = "sg-0e33a634257ebf50f"
 }
 
 variable "subnet_id" {
