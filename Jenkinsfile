@@ -12,9 +12,7 @@ pipeline {
                     System.setProperty("org.jenkinsci.plugins.durabletask.BourneShellScript.HEARTBEAT_CHECK_INTERVAL", "3800");
 
                     sh """
-                    npm install
-                    //npm audit fix --force
-                    //npm run build
+                    npm install                    
                     """
                 }
             }
